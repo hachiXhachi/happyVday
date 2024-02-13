@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>VDay</title>
+
+    </head>
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <body>
+
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+        <span class="heart-rain">&#9829;</span>
+
+        <div class="heart heart--default">
+        </div>
+        <audio id="audioPlayer" src="bgm.mp3" loop></audio>   
+        <!-- <iframe class='player hidden' allow="autoplay *; encrypted-media *;" frameborder="0" height="450"
+        style="width:100%;max-width:660px;overflow:hidden;background:transparent;"
+        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+        src="https://embed.music.apple.com/de/playlist/i-love-you/pl.u-AkAmmPbFl4Yxmr">
+    </iframe> -->
+        <div class="loading-screen" id="loadingScreen">
+            <div class="loader"></div>
+        </div>
+   
+
+        <div class="container hidden">
+            <div id="envelope" class="pulse">
+                <div id="envelope-up"></div>
+                <div id="card">
+                    <div id="close"></div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit
+                    anim id est laborum.
+                </div>
+            </div>
+          
+        </div>
+        <iframe style="border-radius:12px" class="player hidden" src="https://open.spotify.com/embed/playlist/4FFZhQZae6jVQNQIekYzH1?utm_source=generator"
+        style="width:100%;max-width:300px;overflow:hidden;background:transparent;"  height="450" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; 
+          picture-in-picture" loading="lazy"></iframe>
+        <a class="hidden arrow-icon arrow--small">
+            <span class="left-bar"></span>
+            <span class="right-bar"></span>
+        </a>
+
+        <script src="./index.js"></script>
+    </body>
+
+</html>
